@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Expletus Sans', cursive;
+}
+.header{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border: 10px solid;
+    font-size: medium;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+}
+.showMenu{
+    flex-basis: 32%;
+    border-style: hidden;
+    text-align: end;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.showMenu ul{
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: gray;
+}
+.title::after{
+    content: '';
+    background: rgb(42, 42, 42);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+p{
+    color: gray;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.small-container{
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.hero-btn{
+    margin: 0;
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid rgb(43, 43, 43);
+    background: rgb(43, 43, 43);
+    transition: 0.5s;
+}
+.small-container{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.h-four{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.col-4 img{
+    opacity: 50%;
+}
+/*--intro--*/
+.banner{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+h1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-shadow: 0 2px 20px black;
+    font-size: 60px;
+}
+.content{
+    background-color: black;
+    color: black;
+    height: 450px;
+    padding-top: 130px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.content h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
+    padding-top: 55px;
+    color: white;
+}
+.content p{
+    padding: 0 180px;
+    line-height: 2;
+}
+.content:before{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 135px;
+    top: -50px;
+    left: 0;
+    background-color: black;
+    transform: skewY(10deg);
+}
+
+.content:after{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 135px;
+    top: -50px;
+    right: 0;
+    background-color: black;
+    transform: skewY(-10deg);
+}
+/*---payment method---*/
+.pay h2{
+    color: red;
+    text-decoration: underline;
+}
+.pay p{
+    text-align: center;
+    color: red;
+}
+.contact-buttons{
+    padding-top: 40px;
+    letter-spacing: 25px;
+}
+.contact-buttons img{
+    padding-top: 5px;
+    letter-spacing: 25px;
+}
+/*--commission--*/
+.comm-sheet{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 50px;
+}
+.comm-sheet h2{
+    top: 2200px;
+    text-align: center;
+}
+.comm-prev{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.comm-prev img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(128, 128, 128, 0.523);
+}
+.layer p{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover p{
+    bottom: 49%;
+    opacity: 1;
+}
