@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Expletus Sans', cursive;
 }
+body{
+    background-color: rgb(10, 10, 10);
+}
 .header{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -42,7 +45,7 @@ li, a, button{
 }
 .nav_links li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 20px 20px 1px;
 }
 .nav_links li a{
     transition: all 0.3 s ease 0s;
@@ -193,4 +196,76 @@ h1{
         text-align: center;
         padding-right: 25px;
     }
+}
+
+/*------------------EXAMPLES--------------**/
+
+.samples-text h3{
+    text-align: center;
+    color: white;
+    font-size: 85px;
+}
+.samples-text2 p{
+    text-align: center;
+    color: white;
+}
+.ilust img{
+    width: 10%;
+}
+.samplestext3 p{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.ilustNEW img{
+    width: 10%;
+}
+
+/*-------EXAMPLES FOOTER PAGE---------*/
+
+.bottom-page{
+    height: 100vh;
+    background-image: url(shop/images/coffeeBNW.jpg);
+    background-size: cover;
+    background-position-y: 70%;
+    font-family: 'Uchen', serif;
+    color: rgb(12, 12, 12);
+    text-shadow: whitesmoke;
+}
+.bottom-text{
+    font: 36px;
+    margin-left: 50%;
+    margin-top: 15%;
+    letter-spacing: 8px;
+}
+.body-text{
+    font-size: 21px;
+    width: 36%;
+    margin-left: 50%;
+    letter-spacing: 8px;
+}
+.mail{
+    background-color: transparent;
+    outline: none;
+    border: 4px solid #706c5f;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 4%;
+    transition: .5s;
+    color: black;
+    text-align: center;
+}
+.mail:hover{
+    background-color: #706c5f;
+    color: aliceblue;
+}
+
+/*------CONTACT BUTTONS--------*/
+
+.contact-buttons{
+    text-align: center;
+}
+.contact-buttons img{
+    text-align: center;
 }
